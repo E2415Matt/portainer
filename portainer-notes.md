@@ -44,10 +44,10 @@ sudo docker run -d \
 -v portainer_data:/data \
 portainer/portainer-ce
  
-Please go to your internet browser and enter <ip address>:9000 to reach Portainer login interface page. Once you entered and confirmed your password the page will take you to Portainer home page. From there you will be able to launch containers, manage endpoints, manage access, use readily available templates, add external templates, manage volumes, manage users, use registries, review logs, monitor stats and more from graphical user interface without needing to use single line of script. Clear graphics and logically laid menu make usage of Portainer much more user friendly comparing docker command line interface.
+Please go to your internet browser and enter <ip address>:9000 to reach Portainer login interface page. When prompted please ensure to select docker or kubernetes depending on what you are using on that particular machine. Once you entered and confirmed your password the page will take you to Portainer home page. From there you will be able to launch containers, manage endpoints, manage access, use readily available templates, add external templates, manage volumes, manage users, use registries, review logs, monitor stats and more from graphical user interface without needing to use single line of script. Clear graphics and logically laid menu make usage of Portainer much more user friendly comparing docker or kubernetes command line interface.
 
 Final verdict
-If you are using containerised applications and need to manage your containers with less time and want to have quick visibility of status of your containers you will probably like using Portainer.
+If you are using containerised applications and need to manage your containers / pods with less time and want to have quick visibility of status of your containers you will probably like using Portainer.
 
 Author:
 
